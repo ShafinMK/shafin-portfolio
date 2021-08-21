@@ -1,0 +1,81 @@
+body{
+    font-family: 'Concert One', cursive;
+    margin:0px;
+}
+
+h1{
+    font-size: 50px;
+}
+.text-highlight{
+    color:blueviolet;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    padding: 1%;
+}
+.half-width img{
+    width: 70%;
+}
+section{
+    height: 500px;
+}
+.top-section{
+    background-image: url("./images/top-sec-bg.png");
+    background-repeat: no-repeat;
+
+}
+.gray-text{
+    color: gray;
+}
+.violetButton{
+    /* background-color: blueviolet; */
+    background-image: linear-gradient(50deg, rgb(186, 128, 240), blueviolet);
+    padding: 10px 20px;
+    color:white;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Concert One', cursive;
+
+}
+
+.violetButton:hover{
+    box-shadow: 5px 10px 10px gray;
+    transition: box-shadow 0.4s, font-size 0.3s ease-in-out, transform 1s;
+    font-size: large;
+
+}
+.middle-section{
+    background-image: url("./images/middle-sec-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.experience-area{
+    background-image: url("./images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experienceDesign{
+    box-shadow: 10px 10px 30px gray;
+    height:40%;
+    border-radius: 10px;
+    
+}
+#fullStack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, violet);
+    border-image-slice: 1;
+}
+#juniorDev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
